@@ -23,7 +23,7 @@ function App() {
 
         {/* Test: image has no alt */}
         <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" />
+          <img src="https://google.com" />
         </a>
       </div>
 
