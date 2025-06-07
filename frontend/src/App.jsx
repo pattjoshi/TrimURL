@@ -25,6 +25,7 @@ function App() {
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src="https://google.com" />
           <p>i have add `npx lint-staged` lats check</p>
+          <p>i have add `npx lint-staged` lats check 2</p>
         </a>
       </div>
 
