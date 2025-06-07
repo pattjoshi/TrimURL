@@ -24,6 +24,7 @@ function App() {
         {/* Test: image has no alt */}
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src="https://google.com" />
+          <p>i have add `npx lint-staged` lats check</p>
         </a>
       </div>
 
