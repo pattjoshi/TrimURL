@@ -42,10 +42,9 @@ A full-featured URL shortener where users can create, manage, and track short li
 
 ### ✅ Testing (Jest)
 
-- [x] Unit tests for backend routes (using Jest + Supertest)
-- [x] Test for URL shortening logic
-- [x] Test user authentication functions
-- [x] Setup coverage report
+- [] Test for URL shortening logic
+- [] Test user authentication functions
+- [] Setup coverage report
 
 ### ✅ Git Hooks (Husky)
 
@@ -57,10 +56,10 @@ A full-featured URL shortener where users can create, manage, and track short li
 
 ## 🔐 Authentication Features
 
-- [x] Register with email + password
 - [x] Login with email + password
+- [x] Upload profile Image
 - [x] Login with Google OAuth
-- [x] Forgot/reset password via email
+- [x] Forgot/reset password via email (OTP)
 - [x] JWT-based session token system
 - [x] Secure password hashing with bcrypt
 
@@ -68,41 +67,41 @@ A full-featured URL shortener where users can create, manage, and track short li
 
 ## 👤 User Profile
 
-- [x] Upload profile photo
-- [x] Edit user profile
-- [x] View own created URLs and stats
+- [] Upload profile photo
+- [] Edit user profile
+- [] View own created URLs and stats
 
 ---
 
 ## 🔗 URL Shortener Features
 
-- [x] Input long URL → get short URL
-- [x] Auto-generate short code using `nanoid`
-- [x] Customige URL
-- [x] Store short & original URLs in DB
-- [x] Redirect short URL to original (open in new tab)
-- [x] Copy short URL to clipboard
-- [x] Generate and download QR code for short link
+- [] Input long URL → get short URL
+- [] Auto-generate short code using `nanoid`
+- [] Customige URL
+- [] Store short & original URLs in DB
+- [] Redirect short URL to original (open in new tab)
+- [] Copy short URL to clipboard
+- [] Generate and download QR code for short link
 
 ---
 
 ## 📊 Analytics Features
 
-- [x] Track number of clicks
-- [x] Track IP address
-- [x] Detect device type (mobile/desktop)
-- [x] Show geo-location (country/city) using IP
-- [x] Show list of clicks by device and location
+- [] Track number of clicks
+- [] Track IP address
+- [] Detect device type (mobile/desktop)
+- [] Show geo-location (country/city) using IP
+- [] Show list of clicks by device and location
 
 ---
 
 ## 🌟 Extra Feature Ideas
 
-- [x] Custom alias for short URLs (e.g. `/om`)
-- [x] Link Preview Analytics (Preview how the link will appear when shared on WhatsApp, Twitter, or Facebook.)
-- [x] Set expiration date for links
-- [x] Dashboard with charts (using Chart.js or Recharts)
-- [x] Password-protected links
+- [] Custom alias for short URLs (e.g. `/om`)
+- [] Link Preview Analytics (Preview how the link will appear when shared on WhatsApp, Twitter, or Facebook.)
+- [] Set expiration date for links
+- [] Dashboard with charts (using Chart.js or Recharts)
+- [] Password-protected links
 
 ---
 
