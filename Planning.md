@@ -56,12 +56,15 @@ A full-featured URL shortener where users can create, manage, and track short li
 
 ## 🔐 Authentication Features
 
-- [x] Login with email + password
-- [x] Upload profile Image
-- [x] Login with Google OAuth
-- [x] Forgot/reset password via email (OTP)
-- [x] JWT-based session token system
-- [x] Secure password hashing with bcrypt
+- [] JWT-based session token system
+- [] Secure password hashing with bcrypt
+- [] Create Account full name , email + password, upload profile image
+- [] Otp verification send to an email
+- [] OTP screen
+- [] After create show Deshboard not login page
+- [] Login with email + password email
+- [] Login with Google OAuth
+- [] Forgot/reset password via email (OTP)
 
 ---
 
