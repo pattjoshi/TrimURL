@@ -22,6 +22,7 @@ A full-featured URL shortener where users can create, manage, and track short li
 - Express.js
 - MongoDB + Mongoose
 - nanoid (for unique short codes)
+- email smtp (https://www.brevo.com/)
 - bcryptjs / JWT (for auth)
 - nanoid (short and unique url)
 - Google OAuth 2.0
