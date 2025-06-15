@@ -23,6 +23,7 @@ A full-featured URL shortener where users can create, manage, and track short li
 - MongoDB + Mongoose
 - nanoid (for unique short codes)
 - email smtp (https://www.brevo.com/)
+- 10 min temp email valid (https://temp-mail.org/en/10minutemail)
 - bcryptjs / JWT (for auth)
 - nanoid (short and unique url)
 - Google OAuth 2.0

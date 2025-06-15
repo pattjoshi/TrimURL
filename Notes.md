@@ -12,7 +12,13 @@
 
 ## 🧩 Backend
 
-> _(Add backend-related commands or notes here when available)_
+#### What is Middleware ?
+
+- A middleware is a function that runs between receiving a request and sending a response in a web application.
+- It acts as a layer that can process or modify the request or response.
+
+- `Client Request --> Middleware 1 --> Middleware 2 --> Route Handler --> Response
+`
 
 ---
 
