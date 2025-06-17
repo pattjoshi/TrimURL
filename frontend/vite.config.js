@@ -1,12 +1,23 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+import path from "path";
+import tailwindcss from "@tailwindcss/vite";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   test: {
-    globals: true, // allows using `describe`, `it`, `expect` without imports
-    environment: "jsdom", // simulates browser environment
-    setupFiles: "./setupTests.js", // optional: for jest-dom
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./setupTests.js",
   },
 });
