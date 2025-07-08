@@ -11,18 +11,16 @@ const app = express();
 const port = process.env.PORT || 4000;
 connectDB();
 
-// CORS configuration
-app.use(
-  cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
+const allowedOrigins = ["http://localhost:5173"];
 
 app.use(express.json());
 app.use(cookieParser());
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
 
 // API endpoints
 app.get("/", (req, res) => res.send("API working"));

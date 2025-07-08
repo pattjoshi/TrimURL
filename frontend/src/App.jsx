@@ -1,9 +1,20 @@
-import { Button } from "@/components/ui/button";
+import { Route, Routes } from "react-router-dom";
+import Home from "./page/Home";
+import Login from "./page/Login";
+import EmailVerify from "./page/EmailVerify";
+import ResetPassword from "./page/ResetPassword";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
+    <div>
+      <ToastContainer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/email-verify" element={<EmailVerify />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+      </Routes>
     </div>
   );
 }
